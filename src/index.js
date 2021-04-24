@@ -1,6 +1,6 @@
 import initTilt from "./js/tilt";
 import initSr from "./js/sr";
-import resume from "./assets/resume.pdf";
+// import resume from "./assets/resume.pdf";
 
 import "./style/main.scss";
 
@@ -27,5 +27,8 @@ function addResume(pdf) {
 initSr();
 initTilt();
 
+let link = 'https://mail.google.com/mail/?view=cm&fs=1&to=npiyush35@gmail.com&su=SUBJECT&body=BODY'
+
+console.log('Contact Me :' + link);
 // uncomment this if you want to attach your resume
-addResume(resume);
+// addResume(resume);
