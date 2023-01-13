@@ -1,17 +1,13 @@
 @import './vendors/bootstrap.scss';
-
 @import './abstracts/mixins';
 @import './abstracts/variables';
 @import './abstracts/helpers';
-
 @import './base/base';
 @import './base/typography';
-
 @import './components/buttons';
-
 @import './layout/footer';
 @import './layout/sections';
-
+@import './layout/scrollbar';
 @import './sections/about';
 @import './sections/contact';
 @import './sections/hero';

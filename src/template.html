@@ -17,7 +17,6 @@
       href="./assets/android-icon-36x36.png"
     />
     <meta name="author" content="Piyush Negi" />
-    <meta name="robots" content="noindex,nofollow" />
     <title>PIYUSH | Developer</title>
     <meta
       name="keywords"
@@ -25,7 +24,7 @@
     />
     <meta
       name="description"
-      content="Hi! I am a frontend developer with passion for the latest solutions and best user interactive design.
+      content="Hi! I am Piyush Negi, frontend developer with passion for the latest solutions and best user interactive design.
 
     => Tech stack: HTML(5), Css(3), Sass, Bootstrap, JavaScript, jQuery,React Js
     => Frontend Developer with 2+ years of professional experiences in Web Designing and User Interface Development.
@@ -38,15 +37,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script async src="https://buttons.github.io/buttons.js"></script>
     <script>
       ScrollReveal({ reset: false });
     </script>
-
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
   <body>
+    <div class="logo-name">
+      <div class="logo">Piyush Negi</div>
+    </div>
+    <div class="imaginary-container"></div>
     <div id="top"></div>
     <div id="hero" class="jumbotron">
       <div class="container">
@@ -65,33 +69,32 @@
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image">
-              <img loading=lazy class="img-fluid rounded shadow-lg" height=auto
-              width=300px
-              src=https://ik.imagekit.io/d5scjfbjc/aboutsection_xRdrbWK-H.gif
-              alt="Profile Image">
+              <img
+                loading="lazy"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="https://ik.imagekit.io/d5scjfbjc/IMG-20180414-WA0019_1qvbr2862.jpg?updatedAt=1629738367824"
+                alt="Profile Image"
+              />
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
                 <strong>Tech stack:</strong>
-                HTML(5), Css(3), Sass, Bootstrap, JavaScript, jQuery,React
-                Js.<br />
-                Frontend Developer with 2+ years of professional experiences in
-                Web Designing and User Interface Development.<br />Strong
-                experience with Cross Browser Compatibility issues and
-                Optimization for web, including CSS Sprites and best practices.
-              </p>
-              <p class="about-wrapper__info-text">
-                <strong>Hobbies</strong>
-                <br />Whenever I am not coding I spend my time playing
-                badmintion and football.
+                HTML, Css, Sass, Bootstrap, JavaScript, jQuery, ReactJs.
+                <br />
+                Frontend Developer with professional experience in Web Designing
+                and User Interface Development.Strong experience with Cross
+                Browser Compatibility issues and Optimization for web, including
+                CSS Sprites and best practices.
               </p>
               <span class="d-flex mt-3">
                 <a
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="https://drive.google.com/file/d/1-OBqKyAqEf8IovhVETBsa13qlu_a76QC/view?usp=sharing"
+                  href="https://drive.google.com/file/d/177zU3WBrxZR4mHajJQNkFb17rcQLMUto/view"
                   >View Resume</a
                 >
               </span>
@@ -121,12 +124,14 @@
                   target="_blank"
                   class="cta-btn cta-btn--hero"
                   href="https://csb-nt26s.netlify.app "
+                  aria-label="Link to app"
                   >See Live
                 </a>
                 <a
                   target="_blank"
                   class="cta-btn text-color-main"
                   href="https://codesandbox.io/s/weather-app-nt26s"
+                  aria-label="Link to code"
                   >Source Code</a
                 >
               </div>
@@ -136,10 +141,9 @@
                 <a href="https://csb-nt26s.netlify.app" target="_blank">
                   <div data-tilt class="thumbnail rounded">
                     <img
-   
                       class="img-fluid"
                       src="https://ik.imagekit.io/d5scjfbjc/weather-app_8RyrvCqXg.webp"
-                      alt="weather-app image showning weather details"
+                      alt="card-img"
                     />
                   </div>
                 </a>
@@ -164,12 +168,14 @@
                   target="_blank"
                   class="cta-btn cta-btn--hero"
                   href="https://npiyush97.github.io/life-optimize.io "
+                  aria-label="Link to app"
                   >See Live
                 </a>
                 <a
                   target="_blank"
                   class="cta-btn text-color-main"
                   href="https://github.com/npiyush97/life-optimize.io"
+                  aria-label="Link to code"
                   >Source Code</a
                 >
               </div>
@@ -179,12 +185,13 @@
                 <a
                   href="https://npiyush97.github.io/life-optimize.io"
                   target="_blank"
+                  aria-label="Link to app"
                 >
                   <div data-tilt class="thumbnail rounded">
                     <img
-   
                       class="img-fluid"
                       src="https://ik.imagekit.io/d5scjfbjc/todo_acfmlMcPsK.webp"
+                      alt="card-img"
                     />
                   </div>
                 </a>
@@ -210,24 +217,30 @@
                   target="_blank"
                   class="cta-btn cta-btn--hero"
                   href="https://csb-56vg6.netlify.app "
+                  aria-label="Link to app"
                   >See Live
                 </a>
                 <a
                   target="_blank"
                   class="cta-btn text-color-main"
                   href="https://codesandbox.io/s/react-dashboard-56vg6"
+                  aria-label="Link to code"
                   >Source Code</a
                 >
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="https://csb-56vg6.netlify.app" target="_blank">
+                <a
+                  href="https://csb-56vg6.netlify.app"
+                  aria-label="Link to app"
+                  target="_blank"
+                >
                   <div data-tilt class="thumbnail rounded">
                     <img
-   
                       class="img-fluid"
                       src="https://ik.imagekit.io/d5scjfbjc/forport2_tTxJgzWW1.webp"
+                      alt="card-img"
                     />
                   </div>
                 </a>
@@ -251,25 +264,31 @@
                 <a
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://csb-thnyk.netlify.app "
+                  href="https://currency-cnv.web.app/"
+                  aria-label="Link to app"
                   >See Live
                 </a>
                 <a
                   target="_blank"
                   class="cta-btn text-color-main"
                   href="https://codesandbox.io/s/currency-convert-website-thnyk"
+                  aria-label="Link to code"
                   >Source Code</a
                 >
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="https://csb-thnyk.netlify.app " target="_blank">
+                <a
+                  href="https://currency-cnv.web.app/"
+                  aria-label="Link to app"
+                  target="_blank"
+                >
                   <div data-tilt class="thumbnail rounded">
                     <img
-   
                       class="img-fluid"
                       src="https://ik.imagekit.io/d5scjfbjc/currency_ZCUeZ69f2.webp"
+                      alt="card-img"
                     />
                   </div>
                 </a>
@@ -288,6 +307,7 @@
             target="_blank"
             class="cta-btn cta-btn--resume"
             href="mailto:npiyush35@gmail.com"
+            aria-label="Link to mail contact"
             >CLICK TO CONTACT</a
           >
         </div>
@@ -295,34 +315,37 @@
     </section>
     <footer class="footer navbar-static-bottom">
       <div class="container">
-        <a href="#top" class="back-to-top">
+        <a href="#top" class="back-to-top" aria-label="anchor to top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a href="#!" target="_blank">
+          <a href="#!" target="_blank" aria-label="twitter">
             <i class="fa fa-twitter fa-inverse"></i>
           </a>
-          <a href="https://codepen.io/ggpaaaaaaaaaa" target="_blank">
+          <a
+            href="https://codepen.io/ggpaaaaaaaaaa"
+            aria-label="Link to codepen"
+            target="_blank"
+          >
             <i class="fa fa-codepen fa-inverse"></i>
           </a>
-          <a href="https://www.linkedin.com/in/piyush-negi" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/piyush-negi"
+            target="_blank"
+            aria-label="Link to linkedin"
+          >
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a href="https://github.com/npiyush97 " target="_blank">
+          <a
+            href="https://github.com/npiyush97 "
+            target="_blank"
+            aria-label="Link to github"
+          >
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
         <hr />
-        <p class="footer__text">
-          Customize by
-          <a href="https://github.com/npiyush97 " target="_blank"
-            >Piyush Negi
-          </a>
-          © 2020 - Template developed by<br />
-          <a href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
+        <p class="footer__text"></p>
       </div>
     </footer>
   </body>
